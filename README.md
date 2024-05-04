@@ -1,6 +1,6 @@
 # [LakeFS](https://lakefs.io) with [Apache DataFusion](https://datafusion.apache.org)
 
-![](asset/logo.png)
+![](assets/logo.png)
 
 ## Prerequisties
 
@@ -25,7 +25,7 @@ Confirm that LakeFS is running by opening a browser on the following website: ht
 The dataset used in this example is the NYC Taxi Trip dataset. Download the `.parquet` file from here: https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2022-02.parquet
 
 Once downloaded, go to the `demo` repository and upload the dataset to the following path: `taxi_data/input/`:
-![](asset/upload_taxi.png)
+![](assets/upload_taxi.png)
 
 ## Running the Application
 
