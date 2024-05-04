@@ -1,4 +1,4 @@
-# LakeFS with Apache DataFusion
+# [LakeFS](https://lakefs.io) with [Apache DataFusion](https://datafusion.apache.org)
 
 ![](asset/logo.png)
 
