@@ -63,11 +63,11 @@ async fn main() -> Result<()> {
     let file_format = ParquetFormat::default().with_enable_pruning(true);
     let listing_options = ListingOptions::new(Arc::new(file_format))
         .with_file_extension(FileType::PARQUET.get_ext());
-    ctx.register_listing_table("table_table2", &out_path, listing_options, None, None)
+    ctx.register_listing_table("taxi_table2", &out_path, listing_options, None, None)
         .await?;
 
     let df = ctx
-        .sql("SELECT * FROM table_table2")
+        .sql("SELECT * FROM taxi_table2")
         .await?;
 
     df.show_limit(20).await?;
