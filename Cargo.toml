@@ -1,5 +1,5 @@
 [package]
-name = "lakefs_datafusion"
+name = "lakefs-datafusion"
 version = "0.1.0"
 edition = "2021"
 
